@@ -12,8 +12,15 @@
   </ul>
 
   <div ng-view></div>
-
-  <div>Angular seed app: v<span app-version></span></div>
+<form>
+  <div>Name: <input type="text" autofocus>
+  <div>E-mail: <input type="email" name="email" placeholder="user@domain"></div>
+  <div>Telephone: <input type="tel" name="usrtel"></div>
+  <div>Birthday: <input type="date" name="bday"></div>
+  <input type="submit" value="Go">
+</form>
+  
+  
 
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
@@ -25,7 +32,5 @@
   <script src="js/controllers.js"></script>
   <script src="js/filters.js"></script>
   <script src="js/directives.js"></script>
-  <p>THIS IS MY NEW WORLD!!!</p>
-  <p>...this is my second commit to this project!!!</p>
 </body>
 </html>
